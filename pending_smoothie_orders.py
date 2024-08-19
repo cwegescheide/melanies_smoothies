@@ -13,7 +13,7 @@ st.write(
 )
 
 cnx = st.connection("snowflake")
-session = cnx_session()
+session = cnx.session()
 #session = get_active_session()
 ingredients_string = ''
 #my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))

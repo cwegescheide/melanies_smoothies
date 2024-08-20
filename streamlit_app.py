@@ -1,12 +1,9 @@
 # Import python packages
-import streamlit as st 
-import Pandas as pd 
+import streamlit as st
 from snowflake.snowpark.functions import col
+import Pandas as pd 
 #from snowflake.snowpark.context import get_active_session
-
 import requests
-
-
 
 #session = cnx.session()
 
